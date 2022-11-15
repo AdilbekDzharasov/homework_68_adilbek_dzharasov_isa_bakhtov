@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Vacancy
+{% endblock %}
+
+{% block content %}
+
+<div class="album py-3 bg-light">
+  <div class="container">
+
+    <div class="col">
+      <div class="card flex-md-row mb-4 box-shadow h-md-300">
+         <div class="card-body d-flex flex-column align-items-start">
+          <h4 class="mb-4">{{ vacancy.name }}</h4>
+          <h5 class="mb-4">{{ vacancy.salary }} KZT</h5>
+          <p class="card-text mb-4">{{ vacancy.description }}</p>
+          <p class="card-text mb-4">Опыт работы: {{ vacancy.experience_time }} лет</p>
+          <p class="card-text mb-4">{{ vacancy.vacancy_category.name }}</p>
+          <div class="">
+            <a href="/" class="btn btn-sm btn-outline-secondary">← Вернуться на главную</a>
+            {% if user.is_authenticated %}
+                <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil-fill"></i></a>
+                <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-trash-fill mb-3"></i></a>
+            {% endif %}
+          </div>
+          <small class="text-muted mt-4">Дата публикации: {{ vacancy.created_at }}</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+{% endblock %}
