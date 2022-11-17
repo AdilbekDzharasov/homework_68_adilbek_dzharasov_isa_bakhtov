@@ -24,7 +24,7 @@ class HomeVacancyView(ListView):
         return context
 
     def get_queryset(self):
-        queryset = super(HomeVacancyView, self).get_queryset()
+        queryset = super().get_queryset().exclude(is_public=False)
         if self.search_value:
             query = Q(name__icontains=self.search_value) | Q(description__icontains=self.search_value)
             queryset = queryset.filter(query)

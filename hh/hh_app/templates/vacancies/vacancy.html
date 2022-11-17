@@ -19,13 +19,9 @@ Vacancy
           <p class="card-text mb-4">{{ vacancy.vacancy_category.name }}</p>
           <div class="">
             <a href="/" class="btn btn-sm btn-outline-secondary">← Вернуться на главную</a>
-            {% if user.is_authenticated %}
-                <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil-fill"></i></a>
-                <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-trash-fill mb-3"></i></a>
-            {% endif %}
           </div>
-          <small class="text-muted mt-4">Дата публикации: {{ vacancy.created_at }}</small>
-          <small class="text-muted mt-4">Дата обновления: {{ vacancy.updated_at }}</small>
+          <small class="text-muted mt-4">Опубликована: {{ vacancy.created_at|date:"d-m-Y h:i" }}</small>
+          <small class="text-muted mt-4">Обновлена: {{ vacancy.updated_at|date:"d-m-Y h:i" }}</small>
         </div>
       </div>
     </div>

@@ -68,7 +68,6 @@ class Vacancy(models.Model):
         related_name='vacancies_view'
     )
 
-    object = CustomManager()
 
     def __str__(self):
         return f"{self.author} - {self.name}"

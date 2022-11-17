@@ -39,15 +39,21 @@
 
     <h4 class="mb-4">Созданные вакансии</h4>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 index_posts">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         {% for vacancies in account.vacancies_view.all %}
         <div class="col">
             <div class="card mb-4 box-shadow">
                 <div class="card-body">
                     <h4 class="card-text">{{ vacancies.name }}</h4>
-                    <h5 class="mt-4">Обновлена: {{ vacancies.updated_at }}</h5>
+                    <h6 class="mt-4">Обновлена: {{ vacancies.updated_at|date:"d-m-Y h:i" }}</h6>
+                    {% if vacancies.is_public == False %}
+                        <p>Не опубликована</p>
+                    {% else %}
+                        <p>Опубликована</p>
+                    {% endif %}
                     <a href="{% url 'vacancy_update'  vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
                     <a href="{% url 'vacancy_update_date' vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4">Обновить</a>
+                    <a href="{% url 'vacancy_update_public' vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4">Статус вакансии</a>
                 </div>
             </div>
         </div>
@@ -70,8 +76,6 @@
 
 </div>
 
-{% if is_paginated %}
-  {% include 'partial/pagination.html' %}
-{% endif %}
+
 
 {% endblock %}
