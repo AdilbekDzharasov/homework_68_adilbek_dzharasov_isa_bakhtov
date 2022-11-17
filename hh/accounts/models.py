@@ -80,9 +80,10 @@ class Account(AbstractUser):
         blank=True
     )
 
-    USERNAME_FIELD = 'username'
+    USERNAME_FIELD = 'email'
+
     REQUIRED_FIELDS = [
-        'email',
+        'username',
         'password'
     ]
 
