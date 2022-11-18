@@ -28,7 +28,7 @@
                     <a href="/" class="btn btn-sm btn-outline-secondary mt-4">← Назад</a>
                     {% if user.is_authenticated %}
                         <a href="{% url 'vacancy_add' %}" class="btn btn-sm btn-outline-secondary mt-4">Добавить вакансию</a>
-                        <a href="#" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
+                        <a href="{% url 'account_change' account.pk %}" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
                     {% endif %}
                   </div>
               </div>
@@ -47,9 +47,9 @@
                     <h4 class="card-text">{{ vacancies.name }}</h4>
                     <h6 class="mt-4">Обновлена: {{ vacancies.updated_at|date:"d-m-Y h:i" }}</h6>
                     {% if vacancies.is_public == False %}
-                        <p>Не опубликована</p>
+                        <p>Статус: не опубликована</p>
                     {% else %}
-                        <p>Опубликована</p>
+                        <p>Статус: опубликована</p>
                     {% endif %}
                     <a href="{% url 'vacancy_update'  vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
                     <a href="{% url 'vacancy_update_date' vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4">Обновить</a>

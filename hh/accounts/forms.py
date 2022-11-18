@@ -74,3 +74,27 @@ class CustomUserCreationForm(forms.ModelForm):
             user.save()
         return user
 
+
+class UserChangeForm(forms.ModelForm):
+    class Meta:
+        model = get_user_model()
+        fields = [
+            'email',
+            'username',
+            'photo',
+            'phone',
+            'gender',
+            'facebook',
+            'telegram',
+            'linkedin'
+        ]
+        labels = {
+            'username': 'Логин',
+            'email': 'Email',
+            'photo': 'Фото',
+            'phone': 'Телефон',
+            'gender': 'Пол',
+            'facebook': 'facebook',
+            'telegram': 'telegram',
+            'linkedin': 'linkedin',
+        }
