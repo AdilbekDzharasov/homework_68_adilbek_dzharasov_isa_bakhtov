@@ -144,7 +144,7 @@ class Resume(models.Model):
     )
 
     def __str__(self):
-        return f'{self.author}  {self.email}'
+        return f'{self.author}  {self.email} {self.phone} {self.salary_level} {self.phone}'
 
 
 class CategoryEducationChoices(TextChoices):
