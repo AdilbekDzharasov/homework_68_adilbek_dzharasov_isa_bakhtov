@@ -27,7 +27,7 @@
                 <li class="nav-item">
                    <form action="{% url 'logout' %}" method="post">
                       {% csrf_token %}
-                      <input type="submit" value="Выход">
+                      <input type="submit" class="btn btn my-2 text-white" value="Выход">
                     </form>
                 </li>
             {% else %}
