@@ -15,6 +15,21 @@
         </div>
     </form>
 </div>
-
+    <script>
+        window.addEventListener('load', function () {
+            let choose = document.getElementById('id_role');
+            let main = function (evt) {
+                let choice = document.getElementById('id_role').value;
+                let label = document.querySelector('[for="id_username"]');
+                if (choice == 1) {
+                    label.innerHTML = 'Имя компании';
+                }
+                if (choice == 2) {
+                    label.innerHTML = 'Имя';
+                }
+            }
+            choose.addEventListener('change', main);
+        });
+    </script>
 {% endblock %}
 

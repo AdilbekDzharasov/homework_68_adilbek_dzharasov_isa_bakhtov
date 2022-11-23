@@ -39,9 +39,8 @@ class CustomUserCreationForm(forms.ModelForm):
         required=True,
         widget=forms.PasswordInput
     )
-    username = forms.CharField(label='Имя')
     gender = forms.ChoiceField(choices=GENDER_CHOICES, label='Пол')
-    role = forms.ModelChoiceField(required=True, label='Роль', queryset=Role.objects.all(), initial=[0])
+    role = forms.ModelChoiceField(required=True, label='Выберите роль', queryset=Role.objects.all(), initial=[2])
 
     class Meta:
         model = get_user_model()
