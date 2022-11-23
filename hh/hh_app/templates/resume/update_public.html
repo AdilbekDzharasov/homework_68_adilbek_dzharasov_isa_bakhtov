@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Update resume
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <form action="" method="post">{% csrf_token %}
+        <div class="col">
+            <div class="card box-shadow">
+                <div class="card-body">
+                    {{ form.as_p }}
+                </div>
+            </div>
+        </div>
+        <input class="btn btn-sm btn-outline-secondary mt-4" type="submit" value="Изменить статус резюме" />
+    </form>
+</div>
+
+{% endblock %}
+
