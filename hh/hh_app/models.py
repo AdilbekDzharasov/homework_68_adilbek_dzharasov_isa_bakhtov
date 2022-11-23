@@ -144,7 +144,11 @@ class Resume(models.Model):
     )
 
     def __str__(self):
-        return f'{self.author}  {self.email} {self.phone} {self.salary_level} {self.phone}'
+        return f'Автор: {self.author}. Email: {self.email}. Желаемая зарплата: {self.salary_level}'
+
+    class Meta:
+        verbose_name = "Резюме"
+        verbose_name_plural = "Резюме"
 
 
 class CategoryEducationChoices(TextChoices):
@@ -218,6 +222,10 @@ class Education(models.Model):
     def __str__(self):
         return f'{self.institution_name} {self.speciality} {self.begin_date} {self.end_date} '
 
+    class Meta():
+        verbose_name = 'Образование'
+        verbose_name_plural = 'Образования'
+
 
 class Experience(models.Model):
     resume = models.ForeignKey(
@@ -268,4 +276,41 @@ class Experience(models.Model):
 
     def __str__(self):
         return f'{self.company}{self.job_title} {self.begin_date} {self.end_date}'
+
+    class Meta():
+        verbose_name = 'Опыт работы'
+        verbose_name_plural = 'Опыт работы'
+
+
+class Respond(models.Model):
+    resume = models.ForeignKey(
+        to='hh_app.Resume',
+        verbose_name='Резюме',
+        related_name='responses',
+        on_delete=models.CASCADE,
+        null=True,
+        blank=False
+    )
+    vacancy = models.ForeignKey(
+        to='hh_app.Vacancy',
+        verbose_name='Вакансия',
+        on_delete=models.CASCADE,
+        related_name='responses',
+        null=True,
+        blank=False
+    )
+    author = models.ForeignKey(
+        verbose_name='Автор отклика',
+        to=get_user_model(),
+        related_name='responses',
+        blank=True,
+        on_delete=models.CASCADE
+    )
+
+    def __str__(self) -> str:
+        return f'Отклик на {self.vacancy}, от автора {self.author}'
+
+    class Meta():
+        verbose_name = 'Отклик'
+        verbose_name_plural = 'Отклики'
 

@@ -1,5 +1,6 @@
 from django import forms
 from hh_app.models import Vacancy, VacancyCategory, Resume
+from hh_app.models import Respond
 
 
 class VacancyForm(forms.ModelForm):
@@ -37,5 +38,14 @@ class ResumeForm(forms.ModelForm):
             'telegram',
             'linkedin',
             'facebook'
+        )
+
+
+class RespondForm(forms.ModelForm):
+
+    class Meta:
+        model = Respond
+        fields = (
+            'resume',
         )
 

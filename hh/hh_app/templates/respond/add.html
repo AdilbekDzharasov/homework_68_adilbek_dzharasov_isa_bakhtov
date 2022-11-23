@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+{% block title %}
+Respond
+{% endblock %}
+
+{% block content %}
+<style>
+.modal-content {
+    margin: 10px auto 20px;
+    display: block;
+}
+</style>
+
+<div id="myModal" class="modal" style="display: block; width: 100%; height: 100%; background-color: #8bc5ff; z-index: 1; overflow: auto">
+        <div class="modal-content" style="background-color: white; padding: 20px; width: 50%;">
+            <h2 style="margin: 30px auto">Выберите резюме</h2><div>
+                <form action="" method="POST">
+                   {% csrf_token %}
+                    <select class="form-select form-select-lg mb-3" name="resume" id="resume" aria-label=".form-select-lg example">
+                    {% for resume in user.resumes.all %}
+                          <option name="resume" value="{{ resume.pk }}">{{ resume }}</option>
+                    {% endfor %}
+                        </select>
+                    <div class="">
+                        {% bootstrap_button button_type="submit" content='Откликнуться' %}
+                    </div>
+                </form>
+
+            </div>
+        </div>
+</div>
+
+
+{% endblock %}
+
