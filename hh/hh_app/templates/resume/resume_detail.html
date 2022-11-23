@@ -17,7 +17,7 @@ Resume detail
           <p class="card-text mb-4">{{ resume.info_user }}</p>
           <p class="card-text mb-4">{{ resume.email }}</p>
           <p class="card-text mb-4">{{ resume.phone }}</p>
-          {% comment %} <div class='experiences'
+          <div class='experiences'
             {% if experiences %}
                 {% for experience in experiences %}
                     <div class='experience'>
@@ -32,9 +32,9 @@ Resume detail
             {% else %}
                 <p>No experience</p>
             {% endif %}
-          </div> {% endcomment %}
+          </div>
 
-          {% comment %} <div class='educations'
+          <div class='educations'
             {% for education in educations %}
                 <div class='education'>
                 <p>Название учебного заведения {{ education.institution_name }}</p> 
@@ -46,7 +46,7 @@ Resume detail
             {% empty %}
                 <p>No education</p>
             {% endfor %}
-          </div> {% endcomment %}
+          </div>
           <div class="">
             <a href="/" class="btn btn-sm btn-outline-secondary">← Вернуться на главную</a>
           </div>
