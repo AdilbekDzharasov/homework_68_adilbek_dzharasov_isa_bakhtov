@@ -21,7 +21,7 @@ Vacancy list
                 <a href="{% url 'vacancy_detail' vacancy.pk %}" class="btn btn-sm btn-outline-secondary">Подробнее о вакансии</a>
                 <a href="#" class="btn btn-sm btn-outline-secondary">Подробнее о компании</a>
               </div>
-                <small class="text-muted mt-4">Дата публикации: {{ vacancy.created_at }}</small>
+                <small class="text-muted mt-4">Дата публикации: {{ vacancy.created_at|date:"d-m-Y h:i" }}</small>
             </div>
           </div>
         </div>

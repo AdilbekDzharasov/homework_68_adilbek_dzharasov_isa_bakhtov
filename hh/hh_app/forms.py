@@ -1,6 +1,8 @@
 from django import forms
 from hh_app.models import Vacancy, VacancyCategory, Resume
 from hh_app.models import Respond
+from hh_app.models import Education
+from hh_app.widgets import DatePickerInput
 
 
 class VacancyForm(forms.ModelForm):
@@ -42,10 +44,25 @@ class ResumeForm(forms.ModelForm):
 
 
 class RespondForm(forms.ModelForm):
-
     class Meta:
         model = Respond
         fields = (
             'resume',
+        )
+
+
+class EducationForm(forms.ModelForm):
+    begin_date = forms.DateField(required=True, label='Beginning date', widget=DatePickerInput)
+    end_date = forms.DateField(required=False, label='Expiration date', widget=DatePickerInput)
+
+    class Meta:
+        model = Education
+        fields = (
+            'institution_name',
+            'speciality',
+            'category_education',
+            'begin_date',
+            'end_date',
+            'faculty'
         )
 
