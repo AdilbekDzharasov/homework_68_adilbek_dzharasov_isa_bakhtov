@@ -1,0 +1,1383 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "6zv18m1i4rk4c7arbn86uy0nwfuzs4qn",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyELLBQ8evcbCLAgVQNJaU_Gf9cmPej1zcx7MR-2tfpt5MXPxM5MsNPvFkN65LYDuod26zz1ti5z5LvCDzr4tVN-Xg7376CGUb91MiY64UDHAmiNTCAFTAiWBBUhU7FQJk3BaikiKkCjAmWbEKPKTmX2_gC_BTcz:1oxt6t:iktF5Q0tz5fLXg2rODjklOxYkz1CJyf_29gkfC0WCuk",
+    "expire_date": "2022-12-07T17:00:31.060Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "81hha0r1swovrrytv3axgq7ibauwemub",
+  "fields": {
+    "session_data": ".eJxVjDsOAiEUAO9CbQh_npb2noE8eCCrBpJltzLe3ZBsoe3MZN4s4L7VsI-8hoXYhSl2-mUR0zO3KeiB7d556m1bl8hnwg87-K1Tfl2P9m9QcdS5zRpEsqASKmkUZK3PWpZIzoEyyhlwHgt5YSz5CI4QdBFeZrJAmpB9vr0sN0w:1ox2Hv:xPo_M8W0PbPe-00ZuzPPRIF8_0RVx-w9tR1dv3fNYO0",
+    "expire_date": "2022-12-05T08:36:23.085Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ab5dpnd6m1ja1496mo9fhhoma933fpuf",
+  "fields": {
+    "session_data": ".eJxVjDsOAiEUAO9CbQh_npb2noE8eCCrBpJltzLe3ZBsoe3MZN4s4L7VsI-8hoXYhSl2-mUR0zO3KeiB7d556m1bl8hnwg87-K1Tfl2P9m9QcdS5zRpEsqASKmkUZK3PWpZIzoEyyhlwHgt5YSz5CI4QdBFeZrJAmpB9vr0sN0w:1ovacz:4tPrnoRvHpLAwBXz2TyWX9Z5VRre4V1z5yarFFCfKcM",
+    "expire_date": "2022-12-01T08:52:09.715Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bf5j93zswdvixn044n44y7m7w3936c17",
+  "fields": {
+    "session_data": ".eJxVjDsOAiEUAO9CbQh_npb2noE8eCCrBpJltzLe3ZBsoe3MZN4s4L7VsI-8hoXYhSl2-mUR0zO3KeiB7d556m1bl8hnwg87-K1Tfl2P9m9QcdS5zRpEsqASKmkUZK3PWpZIzoEyyhlwHgt5YSz5CI4QdBFeZrJAmpB9vr0sN0w:1outyc:WNGk1QQkjXnIGoCcZZA4V8b_qtBM7Xy6YstJcFI8WOU",
+    "expire_date": "2022-11-29T11:19:38.303Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d3n36mqgs61nx3pnx83lx9b4la9ig1on",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyELLBQ8evcbCLAgVQNJaU_Gf9cmPej1zcx7MR-2tfpt5MXPxM5MsNPvFkN65LYDuod26zz1ti5z5LvCDzr4tVN-Xg7376CGUb91MiY64UDHAmiNTCAFTAiWBBUhU7FQJk3BaikiKkCjAmWbEKPKTmX2_gC_BTcz:1oxMRK:h7JNPJQVBQWIgVruBUGR20JMrp7fgM0hsrqfuiCYclE",
+    "expire_date": "2022-12-06T06:07:26.940Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lnb3svyv5wojz87pr7vhzdtlsvg1jml5",
+  "fields": {
+    "session_data": ".eJxVjDsOAiEUAO9CbQh_npb2noE8eCCrBpJltzLe3ZBsoe3MZN4s4L7VsI-8hoXYhSl2-mUR0zO3KeiB7d556m1bl8hnwg87-K1Tfl2P9m9QcdS5zRpEsqASKmkUZK3PWpZIzoEyyhlwHgt5YSz5CI4QdBFeZrJAmpB9vr0sN0w:1oxBEJ:xNbtkojTbDIv6JPYTXAazIb_cArdoTryaBH2tpxZGhU",
+    "expire_date": "2022-12-05T18:09:15.402Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lojqdejo2iq8s81vihnup0dcug4ydhu5",
+  "fields": {
+    "session_data": ".eJxVjDsOAiEUAO9CbQh_npb2noE8eCCrBpJltzLe3ZBsoe3MZN4s4L7VsI-8hoXYhSl2-mUR0zO3KeiB7d556m1bl8hnwg87-K1Tfl2P9m9QcdS5zRpEsqASKmkUZK3PWpZIzoEyyhlwHgt5YSz5CI4QdBFeZrJAmpB9vr0sN0w:1ow0Vn:Xu8XKpIkU--lsx2B0dlr7J7wr6vJpI7OFZjBAtrM6vA",
+    "expire_date": "2022-12-02T12:30:27.201Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mjqh5rslri0ic3f09egrttnr90zasp7z",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyELLBQ8evcbCLAgVQNJaU_Gf9cmPej1zcx7MR-2tfpt5MXPxM5MsNPvFkN65LYDuod26zz1ti5z5LvCDzr4tVN-Xg7376CGUb91MiY64UDHAmiNTCAFTAiWBBUhU7FQJk3BaikiKkCjAmWbEKPKTmX2_gC_BTcz:1oxJUV:pOfVTQoVc8mmxCBdGCgt7oqb7Trx0gCLmRgpMamaN84",
+    "expire_date": "2022-12-06T02:58:31.504Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "swm8iisem598dez1m4o55t0gclna8dfr",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyELLBQ8evcbCLAgVQNJaU_Gf9cmPej1zcx7MR-2tfpt5MXPxM5MsNPvFkN65LYDuod26zz1ti5z5LvCDzr4tVN-Xg7376CGUb91MiY64UDHAmiNTCAFTAiWBBUhU7FQJk3BaikiKkCjAmWbEKPKTmX2_gC_BTcz:1ox5HI:grRbDaGJo_FruelpR0IS5BT-1NpDkAxaSd8eTeyleaQ",
+    "expire_date": "2022-12-05T11:47:56.711Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ul3et6ktf3gzy5gwd1tl3raz0m8km2ht",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHQ4enSvd9AhgGkaiAp7cr479qkC93ec859sYDbWsM28hLmxM4M2Ol3i0iP3HaQ7thunVNv6zJHviv8oINfe8rPy-H-HVQc9VtbbTN67bWyIkYhqKClTEZNIBL54iIVqQVoA8ZJpbMDC3byyaArrkj2_gDY2zda:1ox8kw:-_wAtJptsuGo5W26zGHwWC8rT-chtbv5Rsj5dHBRUIo",
+    "expire_date": "2022-12-05T15:30:46.964Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z9af0dj6qac21rs71co344xl5v0q15cr",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyELLBQ8evcbCLAgVQNJaU_Gf9cmPej1zcx7MR-2tfpt5MXPxM5MsNPvFkN65LYDuod26zz1ti5z5LvCDzr4tVN-Xg7376CGUb91MiY64UDHAmiNTCAFTAiWBBUhU7FQJk3BaikiKkCjAmWbEKPKTmX2_gC_BTcz:1oxKCD:2AuwEfWfMzPkdMbCUyy0zt_t-UYc642jATi2NeEmJYQ",
+    "expire_date": "2022-12-06T03:43:41.382Z"
+  }
+},
+{
+  "model": "hh_app.vacancycategory",
+  "pk": 3,
+  "fields": {
+    "name": "Транспорт, логистика, перевозки"
+  }
+},
+{
+  "model": "hh_app.vacancycategory",
+  "pk": 4,
+  "fields": {
+    "name": "Информационные технологии"
+  }
+},
+{
+  "model": "hh_app.vacancycategory",
+  "pk": 5,
+  "fields": {
+    "name": "Продажи, обслуживание клиентов"
+  }
+},
+{
+  "model": "hh_app.vacancycategory",
+  "pk": 6,
+  "fields": {
+    "name": "Производство, сервисное обслуживание"
+  }
+},
+{
+  "model": "hh_app.vacancycategory",
+  "pk": 7,
+  "fields": {
+    "name": "Строительство, недвижимость"
+  }
+},
+{
+  "model": "hh_app.education",
+  "pk": 7,
+  "fields": {
+    "resume": 14,
+    "institution_name": "МГУ имени М.В.Ломоносова",
+    "speciality": "Инженер",
+    "category_education": "higher",
+    "begin_date": "2020-01-23",
+    "end_date": "2021-11-23",
+    "faculty": "Технический факультет",
+    "is_deleted": false,
+    "created_at": "2022-11-23T14:47:12.160Z",
+    "changed_at": "2022-11-23T14:47:12.161Z"
+  }
+},
+{
+  "model": "hh_app.experience",
+  "pk": 1,
+  "fields": {
+    "resume": 14,
+    "company": "Kaspi.kz",
+    "begin_date": "2022-01-23",
+    "end_date": "2022-10-23",
+    "job_title": "Старший-инженер сервесной",
+    "is_deleted": false,
+    "created_at": "2022-11-23T16:54:40.495Z",
+    "changed_at": "2022-11-23T16:54:40.495Z"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 1,
+  "fields": {
+    "name": "Работодатель"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 2,
+  "fields": {
+    "name": "Соискатель"
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$xXw5iss5Ov1yBH0pmpIfPu$89bdK/TictOorxv4BCJtQ2hI9pCXW1Yyt/XyjSx+LAI=",
+    "last_login": "2022-11-23T17:00:31.049Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-15T05:50:12.583Z",
+    "role": null,
+    "email": "root@gmail.com",
+    "username": "root",
+    "photo": "",
+    "phone": null,
+    "gender": "Другое",
+    "facebook": null,
+    "telegram": null,
+    "linkedin": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$nZhEsuk70VNLpxWKIWaNSw$8uAwTUoweLN0a1d+mspjnvtj0qrvCovGhc93Kn/CbW8=",
+    "last_login": "2022-11-23T12:42:48.777Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T12:38:45.163Z",
+    "role": 1,
+    "email": "samalwater@gmail.com",
+    "username": "Samal Water",
+    "photo": "photo/unnamed.webp",
+    "phone": "87762242780",
+    "gender": "O",
+    "facebook": "samalwater@Facebook",
+    "telegram": "samalwater@Telegram",
+    "linkedin": "samalwater@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$RPAsjOU90Qzi6hIX1T7yB9$Qz1Ka24gyJcP5SUcqeQFyDpzIKIiQzzP8mEAB9E8uoI=",
+    "last_login": "2022-11-23T13:09:04.832Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T12:46:43.249Z",
+    "role": 1,
+    "email": "halykbank@gmail.com",
+    "username": "Halyk Bank",
+    "photo": "photo/Без_названия.png",
+    "phone": "87762242781",
+    "gender": "O",
+    "facebook": "halykbank@Facebook",
+    "telegram": "halykbank@Telegram",
+    "linkedin": "halykbank@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$qBGstYvz1459tIU6BldcXs$YGKgomMXQIZ4vhoOu/74GGVgraKHvl1nIcMu0xcTOlY=",
+    "last_login": "2022-11-23T13:12:11.305Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T13:12:10.985Z",
+    "role": 1,
+    "email": "milavitsa@gmail.com",
+    "username": "MILAVITSA",
+    "photo": "photo/milavitsa.jpg",
+    "phone": "87762242782",
+    "gender": "O",
+    "facebook": "milavitsa@Facebook",
+    "telegram": "milavitsa@Telegram",
+    "linkedin": "milavitsa@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$5ZftQsMrwPcw1cx3RriS6Y$7ntmbdvvF8uCZ8AIFy3hzgF1/lesyWljNFsYjX3r4IA=",
+    "last_login": "2022-11-23T13:17:21.613Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T13:17:21.243Z",
+    "role": 1,
+    "email": "kaspi@gmail.com",
+    "username": "Kaspi.kz",
+    "photo": "photo/1636228710_13-papik-pro-p-kaspi-logotip-foto-15.png",
+    "phone": "87762242783",
+    "gender": "O",
+    "facebook": "kaspi@Facebook",
+    "telegram": "kaspi@Telegram",
+    "linkedin": "kaspi@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$SbMQB72ifbw5uMhFKRIqaB$6WIhTwgdliGoUyaIsfAmyTldHj69o9AlEyNSboeNBTQ=",
+    "last_login": "2022-11-23T13:27:01.226Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T13:27:00.741Z",
+    "role": 1,
+    "email": "bigroup@gmail.com",
+    "username": "BIGroup",
+    "photo": "photo/512x512bb.jpg",
+    "phone": "87762242784",
+    "gender": "O",
+    "facebook": "bigroup@Facebook",
+    "telegram": "bigroup@Telegram",
+    "linkedin": "bigroup@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$IyViAWkx4ONtnxPi6gjARh$JF3XWs4CdXyi1s2Jcpnkb/77thYpsug8h8iwYx8RKn0=",
+    "last_login": "2022-11-23T14:43:45.641Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T14:43:45.381Z",
+    "role": 2,
+    "email": "ivanpetrov@gmail.com",
+    "username": "Иван Петров",
+    "photo": "photo/kartinki-krasivyh-muzhchin-4.jpg",
+    "phone": "87762242786",
+    "gender": "M",
+    "facebook": "ivanpetrov@Facebook",
+    "telegram": "ivanpetrov@Telegram",
+    "linkedin": "ivanpetrov@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.account",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$ix4qGnBlrZBkIDspPfM8Kz$lZWDfshRHC/iPaSCetu1FpAfrflksWg7I7374kOnh2g=",
+    "last_login": "2022-11-23T16:58:05.033Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-23T16:58:04.671Z",
+    "role": 2,
+    "email": "smagulovernat@gmail.com",
+    "username": "Смагулов Ернат",
+    "photo": "photo/33343.jpg",
+    "phone": "87762242787",
+    "gender": "M",
+    "facebook": "smagulovernat@Facebook",
+    "telegram": "smagulovernat@Telegram",
+    "linkedin": "smagulovernat@Linkedin",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hh_app.resume",
+  "pk": 14,
+  "fields": {
+    "author": [
+      "ivanpetrov@gmail.com"
+    ],
+    "salary_level": 300000.0,
+    "info_user": "Целеустремленный, внимательный\r\nОкончил МГУ им.Лермонтова",
+    "email": "ivanpetrov@gmail.com",
+    "phone": "87762242786",
+    "telegram": "ivanpetrov@Telegram",
+    "linkedin": "ivanpetrov@Linkedin",
+    "facebook": "ivanpetrov@Facebook",
+    "is_public": false,
+    "is_deleted": false,
+    "created_at": "2022-11-23T14:44:11.012Z",
+    "changed_at": "2022-11-23T16:13:37.089Z"
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 8,
+  "fields": {
+    "author": [
+      "samalwater@gmail.com"
+    ],
+    "name": "Водитель-курьер",
+    "salary": 150000,
+    "description": "Обязанности:\r\nРазвозка и доставка документов\r\nТребования:\r\nЗнание города\r\nНаличие авто\r\nОтветственность и коммуникабельность\r\nУсловия:\r\n\r\nГрафик работы 5/2 с 8:00 до 17:00ч.\r\nЗП+ГСМ",
+    "experience_time": 3,
+    "is_public": true,
+    "created_at": "2022-11-23T12:43:24.333Z",
+    "updated_at": "2022-11-23T12:43:24.333Z",
+    "vacancy_category": 3
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 9,
+  "fields": {
+    "author": [
+      "halykbank@gmail.com"
+    ],
+    "name": "Python Developer",
+    "salary": 350000,
+    "description": "Обязанности:\r\n• Поддержка open-source продукта Apache Superset;\r\n• Сборка новых образов Apache Superset;\r\n• Разработка REST и SOAP API;\r\nТребования:\r\n• Высшее техническое образование;\r\n• Знание языков Python/JS(Flask, React);\r\n• Опыт программирования на языке Python от 2-х лет, наличие выполненных проектов;\r\n• Знание фреймворка Flask;\r\n• Уверенная работа c GIT и его ветками;\r\n• Опыт написания тестов и организации тестовых стендов;\r\n• Понимание известных паттернов, принципов программирования;\r\n• Опыт разработки API/REST-API;\r\n• Опыт работы с Docker",
+    "experience_time": 3,
+    "is_public": true,
+    "created_at": "2022-11-23T13:09:54.592Z",
+    "updated_at": "2022-11-23T13:09:54.592Z",
+    "vacancy_category": 4
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 10,
+  "fields": {
+    "author": [
+      "milavitsa@gmail.com"
+    ],
+    "name": "Продавец-консультант",
+    "salary": 180000,
+    "description": "Обязанности\r\n\r\n- продажи\r\n\r\n- работа с клиентами\r\n\r\n- обеспечение чистоты и порядка в торговом зале\r\n\r\nУсловия\r\n\r\n- Зарплата: 140-250 тыс.тенге (фикса + %% от продаж + премии) + оплачиваем отпускные, пенсионные. Трудоустройство официальное со всеми отчислениями\r\n\r\n- график работы 5/2, 4/2 или 3/3 на выбор, с 10.00 до 20.00\r\n\r\n- 10 магазинов по городу, работайте где удобно\r\n\r\n- Стажировка 7 дней оплачивается по 4000 тенге/день\r\n\r\n- Обучаем работать, ходим на корпоративы, где танцуем и веселимся\r\n\r\nТребования\r\n\r\n- Опыт работы в розничном магазине\r\n\r\n- Опыт продаж одежды или белья будет преимуществом",
+    "experience_time": 1,
+    "is_public": true,
+    "created_at": "2022-11-23T13:12:58.297Z",
+    "updated_at": "2022-11-23T13:12:58.297Z",
+    "vacancy_category": 5
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 11,
+  "fields": {
+    "author": [
+      "kaspi@gmail.com"
+    ],
+    "name": "Сервис - Инженер",
+    "salary": 300000,
+    "description": "Обязанности:\r\nобеспечение функционирование сети терминалов самообслуживания, техническое сопровождение, ремонт терминалов самообслуживания\r\nПроведения профилактических работ периферийного оборудования терминалов\r\nПроведения анкерных работ с терминалом самообслуживания\r\nпрофилактика и ремонт стекера купюр терминалов\r\nТребования:\r\nоконченное средне специальное/высшее образование (желательно техническая специальность)\r\nНавыки работы с современным программным обеспечением (ПО);\r\nНавык работы с устройствами (Терминалы самообслуживания АПП-2,АПП-3);\r\nЗнания в области оборудования, используемого для обслуживания платежных карточек, Терминалов самообслуживания и основных протоколов, использующихся в данном оборудовании;\r\nЗнания в области современных информационных систем;\r\nНавыки работы с процессинговыми системами.\r\nжелателен стаж работы по технической специальности не менее одного года.\r\nУсловия:\r\nпятидневная рабочая неделя (5/2)\r\nфиксированный оклад + бонусы\r\nтрудоустройство согласно ТК РК\r\nдружный коллектив",
+    "experience_time": 3,
+    "is_public": true,
+    "created_at": "2022-11-23T13:18:35.855Z",
+    "updated_at": "2022-11-23T13:18:35.855Z",
+    "vacancy_category": 6
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 12,
+  "fields": {
+    "author": [
+      "bigroup@gmail.com"
+    ],
+    "name": "Монтажник",
+    "salary": 300000,
+    "description": "В компанию NLS Kazakhstan в связи с расширением требуются новые члены команды технического департамента! Если есть желание, но недостаточно опыта, проведем обучение!\r\n\r\nОбязанности:\r\n\r\nМонтаж оптических линий связи\r\nРемонт оптических линий связи\r\nТребования:\r\nНавыки работы с оптическим кабелем.\r\nНавыки работы на сооружениях связи (опоры, крыши)\r\nТехническая грамотность и уверенное знание ПК.\r\nОбразование - от среднего специального.\r\nОпыт работы в аналогичной должности или в отрасли связи (электромонтер, электромонтажник) приветствуется\r\nУмение работать с электроинструментом\r\nУсловия:\r\nГрафик работы 5/2 9:00-18:00\r\nОфициальное трудоустройство\r\nПереработки оплачиваются\r\nОбучение и повышение квалификации",
+    "experience_time": 2,
+    "is_public": true,
+    "created_at": "2022-11-23T13:27:32.175Z",
+    "updated_at": "2022-11-23T13:27:32.175Z",
+    "vacancy_category": 7
+  }
+},
+{
+  "model": "hh_app.vacancy",
+  "pk": 13,
+  "fields": {
+    "author": [
+      "bigroup@gmail.com"
+    ],
+    "name": "Монтажник-инжененер",
+    "salary": 350000,
+    "description": "В компанию BIGroup в связи с расширением требуются новые члены команды технического департамента! Если есть желание, но недостаточно опыта, проведем обучение! Обязанности: Монтаж оптических линий связи Ремонт оптических линий связи Требования: Навыки работы с оптическим кабелем. Навыки работы на сооружениях связи (опоры, крыши) Техническая грамотность и уверенное знание ПК. Образование - от среднего специального. Опыт работы в аналогичной должности или в отрасли связи (электромонтер, электромонтажник) приветствуется Умение работать с электроинструментом Условия: График работы 5/2 9:00-18:00 Официальное трудоустройство Переработки оплачиваются Обучение и повышение квалификации",
+    "experience_time": 5,
+    "is_public": false,
+    "created_at": "2022-11-23T14:41:31.121Z",
+    "updated_at": "2022-11-23T14:41:31.121Z",
+    "vacancy_category": 7
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-11-15T05:50:37.819Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "1",
+    "object_repr": "1 категория",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-11-15T05:50:46.474Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "2",
+    "object_repr": "2 категория",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-11-15T05:51:08.229Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "role"
+    ],
+    "object_id": "1",
+    "object_repr": "Работодатель",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-11-15T05:51:12.883Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "role"
+    ],
+    "object_id": "2",
+    "object_repr": "Соискатель",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-11-21T17:39:35.954Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "3",
+    "object_repr": "Отклик на None, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-11-21T17:39:35.972Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "2",
+    "object_repr": "Отклик на None, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-11-21T17:39:35.987Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "1",
+    "object_repr": "Отклик на None, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-11-21T18:08:25.762Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "3",
+    "object_repr": "root - None root3@gmail.com (705) 678-4846 500000.0 (705) 678-4846",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-11-21T18:08:25.774Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "2",
+    "object_repr": "root3 - Соискатель root3@gmail.com (705) 678-4846 333333.0 (705) 678-4846",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-11-21T18:08:25.780Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "1",
+    "object_repr": "root3 - Соискатель root@gmail.com 2222 500000.0 2222",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.857Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "14",
+    "object_repr": "Отклик на root - None - 1 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.866Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "13",
+    "object_repr": "Отклик на root - None - 1 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.879Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "12",
+    "object_repr": "Отклик на root - None - 1 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.889Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "11",
+    "object_repr": "Отклик на root - None - 1 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.912Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "10",
+    "object_repr": "Отклик на root - None - 2 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.921Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "9",
+    "object_repr": "Отклик на root - None - 2 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.935Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "8",
+    "object_repr": "Отклик на root - None - 2 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.952Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "7",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.959Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "6",
+    "object_repr": "Отклик на root3 - Соискатель - 5 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-11-22T14:28:34.970Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "5",
+    "object_repr": "Отклик на root3 - Соискатель - 10 вакансия, от автора root3 - Соискатель",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-11-23T02:58:28.077Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "18",
+    "object_repr": "Отклик на None, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-11-23T02:58:28.093Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "17",
+    "object_repr": "Отклик на None, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-11-23T02:58:28.103Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "16",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-11-23T02:58:28.111Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "15",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-11-23T03:15:25.705Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "19",
+    "object_repr": "Отклик на None, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-11-23T03:53:33.518Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "20",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-11-23T05:11:05.521Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "23",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-11-23T05:11:05.532Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "22",
+    "object_repr": "Отклик на root3 - Соискатель - 6 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-11-23T05:11:05.540Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "respond"
+    ],
+    "object_id": "21",
+    "object_repr": "Отклик на root3 - Соискатель - 10 вакансия, от автора root - None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-11-23T05:22:25.452Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "4",
+    "object_repr": "root - None root@gmail.com (705) 678-4846 500000.0 (705) 678-4846",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u0442\\u044c?\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-11-23T12:20:08.250Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "account"
+    ],
+    "object_id": "4",
+    "object_repr": "root5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-11-23T12:20:08.256Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "account"
+    ],
+    "object_id": "3",
+    "object_repr": "root4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-11-23T12:20:08.265Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "account"
+    ],
+    "object_id": "2",
+    "object_repr": "root3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-11-23T12:20:24.131Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancy"
+    ],
+    "object_id": "4",
+    "object_repr": "root - 4 вакансия",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-11-23T12:20:24.137Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancy"
+    ],
+    "object_id": "3",
+    "object_repr": "root - 3 вакансия",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-11-23T12:20:24.147Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancy"
+    ],
+    "object_id": "2",
+    "object_repr": "root - 2 вакансия",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-11-23T12:20:24.157Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancy"
+    ],
+    "object_id": "1",
+    "object_repr": "root - 1 вакансия",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-11-23T12:20:32.408Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "2",
+    "object_repr": "2 категория",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-11-23T12:20:32.420Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "1",
+    "object_repr": "1 категория",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-11-23T12:20:39.336Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "education"
+    ],
+    "object_id": "6",
+    "object_repr": "Название учебного заведения Специальность 2022-11-05 2022-11-02 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-11-23T12:20:39.350Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "education"
+    ],
+    "object_id": "5",
+    "object_repr": "Название учебного заведения Специальность 2022-11-05 2022-11-01 ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-11-23T12:20:50.832Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "13",
+    "object_repr": "Автор: root. Email: None. Желаемая зарплата: None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-11-23T12:20:50.845Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "12",
+    "object_repr": "Автор: root. Email: root2@gmail.com. Желаемая зарплата: 6666666.0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-11-23T12:20:50.854Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "resume"
+    ],
+    "object_id": "4",
+    "object_repr": "Автор: root. Email: root@gmail.com. Желаемая зарплата: 500000.0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-11-23T12:42:33.904Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "3",
+    "object_repr": "Транспорт, логистика, перевозки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-11-23T13:07:44.740Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "4",
+    "object_repr": "Информационные технологии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-11-23T13:08:06.332Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "5",
+    "object_repr": "Продажи, обслуживание клиентов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-11-23T13:08:47.661Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "6",
+    "object_repr": "Производство, сервисное обслуживание",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-11-23T13:20:54.248Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "hh_app",
+      "vacancycategory"
+    ],
+    "object_id": "7",
+    "object_repr": "Строительство, недвижимость",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-11-23T17:00:40.640Z",
+    "user": [
+      "root@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "account"
+    ],
+    "object_id": "12",
+    "object_repr": "root3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
