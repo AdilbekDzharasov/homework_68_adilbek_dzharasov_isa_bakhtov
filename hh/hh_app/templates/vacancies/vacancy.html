@@ -19,6 +19,7 @@ Vacancy
           <p class="card-text mb-4">{{ vacancy.vacancy_category.name }}</p>
           <div class="">
             <a href="/" class="btn btn-sm btn-outline-secondary">← Вернуться на главную</a>
+            <a href="{% url 'respond_add' vacancy.pk %}" class="btn btn-sm btn-outline-secondary">Откликнуться</a>
           </div>
           <small class="text-muted mt-4">Опубликована: {{ vacancy.created_at|date:"d-m-Y h:i" }}</small>
           <small class="text-muted mt-4">Обновлена: {{ vacancy.updated_at|date:"d-m-Y h:i" }}</small>

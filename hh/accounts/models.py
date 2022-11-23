@@ -92,5 +92,5 @@ class Account(AbstractUser):
         verbose_name_plural = 'Профили'
 
     def __str__(self):
-        return f'{self.username} - {self.role}'
+        return f'{self.username}'
 

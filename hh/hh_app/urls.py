@@ -6,6 +6,8 @@ from hh_app.views.vacancy_update import VacancyUpdateView, update_date, VacancyP
 from hh_app.views.resume_add import ResumeAddView
 from hh_app.views.resume_home import HomeResumeView
 from hh_app.views.resume_detail import ResumeDetailView
+from hh_app.views.responde_add import RespondAddView
+
 
 urlpatterns = [
     path('', HomeVacancyView.as_view(), name='home'),
@@ -18,5 +20,7 @@ urlpatterns = [
     path('resume/add/', ResumeAddView.as_view(), name='resume_add'),
     path('resume/list/', HomeResumeView.as_view(), name='resume_home'),
     path('resume/<int:pk>', ResumeDetailView.as_view(), name='resume_detail'),
+
+    path('respond/add/<int:pk>', RespondAddView.as_view(), name='respond_add'),
     ]
 
