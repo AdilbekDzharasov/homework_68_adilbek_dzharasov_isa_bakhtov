@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block title %}
+Experience
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <form action="" method='POST' enctype="multipart/form-data">
+        <div class='form'>
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="submit" value="Добавить опыт работы">
+        </div>
+    </form>
+<div>
+
+
+</div>
+
+{% endblock %}
