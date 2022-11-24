@@ -20,32 +20,12 @@
              <div class="card-body d-flex flex-column align-items-start">
                   <h4 class="mb-4">{{ account.username }}</h4>
                   <h5 class="mb-4">{{ account.email }}</h5>
-                  {% if account.phone %}
-                    <p class="card-text"><i class="bi bi-telephone-fill" style="font-size: 1.3rem"></i>  {{ account.phone }}</p>
-                  {% else %}
-                    <p class="card-text mt-4"></p>
-                  {% endif %}
-                  {% if account.facebook %}
-                    <p class="card-text mt-4"><i class="bi bi-facebook" style="font-size: 1.3rem"></i>  {{ account.facebook }}</p>
-                  {% else %}
-                    <p class="card-text mt-4"></p>
-                  {% endif %}
-                  {% if account.telegram %}
-                    <p class="card-text "><i class="bi bi-telegram" style="font-size: 1.3rem"></i>  {{ account.telegram }}</p>
-                  {% else %}
-                    <p class="card-text mt-4"></p>
-                  {% endif %}
-                  {% if account.linkedin %}
-                    <p class="card-text"><i class="bi bi-linkedin" style="font-size: 1.3rem"></i>  {{ account.linkedin }}</p>
-                  {% else %}
-                    <p class="card-text mt-4"></p>
-                  {% endif %}
-                  <div class="mt-4">
+                  <p class="card-text"><i class="bi bi-telephone-fill"style="font-size: 1.3rem"></i>  {{ account.phone }}</p>
+                  <p class="card-text mt-4"><i class="bi bi-facebook" style="font-size: 1.3rem"></i>  {{ account.facebook }}</p>
+                  <p class="card-text"><i class="bi bi-telegram" style="font-size: 1.3rem"></i>  {{ account.telegram }}</p>
+                  <p class="card-text"><i class="bi bi-linkedin" style="font-size: 1.3rem"></i>  {{ account.linkedin }}</p>
+                  <div class="">
                     <a href="/" class="btn btn-sm btn-outline-secondary mt-4">← Назад</a>
-                    {% if user.is_authenticated %}
-                        <a href="{% url 'vacancy_add' %}" class="btn btn-sm btn-outline-secondary mt-4">Добавить вакансию</a>
-                        <a href="{% url 'account_change' account.pk %}" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
-                    {% endif %}
                   </div>
               </div>
           </div>
@@ -68,9 +48,7 @@
                         <p>Статус: опубликована</p>
                     {% endif %}
                     {% if user.is_authenticated %}
-                        <a href="{% url 'vacancy_update'  vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4"><i class="bi bi-pencil-fill" style="font-size: 1.3rem"></i></a>
-                        <a href="{% url 'vacancy_update_date' vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4">Обновить</a>
-                        <a href="{% url 'vacancy_update_public' vacancies.pk %}" class="btn btn-sm btn-outline-secondary mt-4">Статус вакансии</a>
+                        <a href="{% url 'respond_add' vacancies.pk %}" class="btn btn-sm btn-outline-secondary">Откликнуться</a>
                     {% endif %}
                 </div>
             </div>
@@ -93,3 +71,4 @@
     </div>
 </div>
 {% endblock %}
+

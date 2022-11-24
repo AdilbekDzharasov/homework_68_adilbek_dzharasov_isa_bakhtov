@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404
 from django.urls import reverse
 from django.views.generic import CreateView
@@ -6,7 +7,7 @@ from hh_app.forms import RespondForm
 from hh_app.models import Vacancy
 
 
-class RespondAddView(CreateView):
+class RespondAddView(LoginRequiredMixin, CreateView):
     model = Respond
     template_name = 'respond/add.html'
     form_class = RespondForm

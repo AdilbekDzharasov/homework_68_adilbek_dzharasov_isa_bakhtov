@@ -1,5 +1,4 @@
 from django.contrib.auth import authenticate, login, logout, get_user_model, update_session_auth_hash
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, get_object_or_404
 from django.views.generic import TemplateView, CreateView, DetailView, UpdateView, ListView
@@ -60,6 +59,24 @@ class RegisterView(CreateView):
 class EmployerDetailView(DetailView):
     model = get_user_model()
     template_name = 'employer/office_employer.html'
+    context_object_name = 'account'
+    paginate_related_by = 3
+    paginate_related_orphans = 0
+
+    def get_context_data(self, **kwargs):
+        vacancies = self.get_object().vacancies_view.all()
+        paginator = Paginator(vacancies, self.paginate_related_by, orphans=self.paginate_related_orphans)
+        page_number = self.request.GET.get('page', 1)
+        page = paginator.get_page(page_number)
+        kwargs['page_obj'] = page
+        kwargs['vacancies'] = page.object_list
+        kwargs['is_paginated'] = page.has_other_pages()
+        return super().get_context_data(**kwargs)
+
+
+class CompanyDetailView(DetailView):
+    model = get_user_model()
+    template_name = 'employer/company_detail.html'
     context_object_name = 'account'
     paginate_related_by = 3
     paginate_related_orphans = 0

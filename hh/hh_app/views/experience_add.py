@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import CreateView
 from hh_app.forms import ExperienceForm
@@ -5,7 +6,7 @@ from hh_app.models import Experience
 from hh_app.models import Resume
 
 
-class ExperienceAddView(CreateView):
+class ExperienceAddView(LoginRequiredMixin, CreateView):
     template_name = 'experience/experience_add.html'
     form_class = ExperienceForm
     model = Experience
