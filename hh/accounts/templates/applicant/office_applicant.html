@@ -13,18 +13,34 @@
         <div class="col">
           <div class="card flex-md-row mb-4 box-shadow h-md-300">
               {% if account.photo %}
-                <img class="card-img-right flex-auto d-none d-md-block" data-src="{{ account.photo.url }}" alt="Thumbnail [200x250]" style="width: 450px; height: 375px;" src="{{ account.photo.url }}" data-holder-rendered="true">
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="{{ account.photo.url }}" alt="Thumbnail [200x250]" style="width: 450px; height: 400px;" src="{{ account.photo.url }}" data-holder-rendered="true">
               {% else %}
                 <img class="card-img-right flex-auto d-none d-md-block" data-src="../media/no.jpg" alt="Thumbnail [200x250]" style="width: 450px; height: 375px;" src="{% static 'no.jpg' %}" data-holder-rendered="true">
               {% endif %}
              <div class="card-body d-flex flex-column align-items-start">
                   <h4 class="mb-4">{{ account.username }}</h4>
                   <h5 class="mb-4">{{ account.email }}</h5>
-                  <p class="card-text"><i class="bi bi-telephone-fill"style="font-size: 1.3rem"></i>  {{ account.phone }}</p>
-                  <p class="card-text mt-4"><i class="bi bi-facebook" style="font-size: 1.3rem"></i>  {{ account.facebook }}</p>
-                  <p class="card-text"><i class="bi bi-telegram" style="font-size: 1.3rem"></i>  {{ account.telegram }}</p>
-                  <p class="card-text"><i class="bi bi-linkedin" style="font-size: 1.3rem"></i>  {{ account.linkedin }}</p>
-                  <div class="">
+                  {% if account.phone %}
+                    <p class="card-text"><i class="bi bi-telephone-fill" style="font-size: 1.3rem"></i>  {{ account.phone }}</p>
+                  {% else %}
+                    <p class="card-text mt-4"></p>
+                  {% endif %}
+                  {% if account.facebook %}
+                    <p class="card-text mt-4"><i class="bi bi-facebook" style="font-size: 1.3rem"></i>  {{ account.facebook }}</p>
+                  {% else %}
+                    <p class="card-text mt-4"></p>
+                  {% endif %}
+                  {% if account.telegram %}
+                    <p class="card-text "><i class="bi bi-telegram" style="font-size: 1.3rem"></i>  {{ account.telegram }}</p>
+                  {% else %}
+                    <p class="card-text mt-4"></p>
+                  {% endif %}
+                  {% if account.linkedin %}
+                    <p class="card-text"><i class="bi bi-linkedin" style="font-size: 1.3rem"></i>  {{ account.linkedin }}</p>
+                  {% else %}
+                    <p class="card-text mt-4"></p>
+                  {% endif %}
+                  <div class="mt-4">
                     <a href="/" class="btn btn-sm btn-outline-secondary mt-4">← Назад</a>
                     {% if user.is_authenticated %}
                         <a href="{% url 'resume_add' %}" class="btn btn-sm btn-outline-secondary mt-4">Добавить резюме</a>

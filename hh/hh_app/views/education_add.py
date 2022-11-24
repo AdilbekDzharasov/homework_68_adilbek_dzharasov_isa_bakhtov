@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import CreateView
 from hh_app.forms import EducationForm
@@ -5,7 +6,7 @@ from hh_app.models import Education
 from hh_app.models import Resume
 
 
-class EducationAddView(CreateView):
+class EducationAddView(LoginRequiredMixin, CreateView):
     template_name = 'education/education_add.html'
     form_class = EducationForm
     model = Education
