@@ -1,5 +1,5 @@
 from django.contrib import admin
-from hh_app.models import Vacancy, VacancyCategory, Resume, Education, Experience, Respond
+from hh_app.models import Vacancy, VacancyCategory, Resume, Education, Experience, Respond, Message
 
 admin.site.register(Vacancy)
 
@@ -13,3 +13,4 @@ admin.site.register(Experience)
 
 admin.site.register(Respond)
 
+admin.site.register(Message)

@@ -314,3 +314,27 @@ class Respond(models.Model):
         verbose_name = 'Отклик'
         verbose_name_plural = 'Отклики'
 
+
+class Message(models.Model):
+    author = models.ForeignKey(
+        to=get_user_model(),
+        verbose_name='Автор',
+        on_delete=models.CASCADE,
+        related_name='message',
+    )
+    respond = models.ForeignKey(
+        to='hh_app.Respond',
+        verbose_name='Отклик',
+        on_delete=models.CASCADE,
+        related_name='message'
+    )
+    message = models.TextField(null=False, blank=False)
+    created_at = models.DateTimeField(auto_now_add=True, blank=True)
+
+    def __str__(self) -> str:
+        return f'{self.author}: {self.respond}'
+
+    class Meta:
+        verbose_name = 'Сообщение на отклик'
+        verbose_name_plural = 'Сообщения на отклики'
+

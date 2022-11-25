@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+{% block title %}
+Respond chat
+{% endblock %}
+
+{% block content %}
+<style>
+.description{
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.description span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+</style>
+
+ {% for r in responses %}
+    <div class="album py-3 bg-light">
+      <div class="container">
+        <div class="col">
+          <div class="card flex-md-row mb-4 box-shadow h-md-300">
+             <div class="card-body d-flex flex-column align-items-start">
+              <h4 class="mb-4">Отклик оставил: {{ r.author }}</h4>
+              <h5 class="mb-4">Вакансия: {{ r.vacancy }}</h5>
+              <h5>Резюме:</h5>
+              <h7 class="card-text mb-4">{{ r.resume }}</h7>
+                 <h4>Сообщения</h4>
+                 {% for i in r.message.all %}
+                    <p class="description"><span>{{ i.author }}</span>{{ i.message }}</p>
+                 {% endfor %}
+               <form class="mt-4" action="{% url 'message_add' r.pk %}" method="post">
+                   {% csrf_token %}
+                   {% bootstrap_form favorite_form %}
+                   {% bootstrap_button button_type="submit" content='Опубликовать' %}
+               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ {% endfor %}
+
+{% endblock %}
+

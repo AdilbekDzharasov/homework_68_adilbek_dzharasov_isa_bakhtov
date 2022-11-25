@@ -65,11 +65,13 @@ class EmployerDetailView(DetailView):
 
     def get_context_data(self, **kwargs):
         vacancies = self.get_object().vacancies_view.all()
+        messages = self.get_object().message.all()
         paginator = Paginator(vacancies, self.paginate_related_by, orphans=self.paginate_related_orphans)
         page_number = self.request.GET.get('page', 1)
         page = paginator.get_page(page_number)
         kwargs['page_obj'] = page
         kwargs['vacancies'] = page.object_list
+        kwargs['messages'] = page.object_list
         kwargs['is_paginated'] = page.has_other_pages()
         return super().get_context_data(**kwargs)
 
@@ -101,11 +103,13 @@ class ApplicantDetailView(DetailView):
 
     def get_context_data(self, **kwargs):
         resumes = self.get_object().resumes.all()
+        responses = self.get_object().responses.all()
         paginator = Paginator(resumes, self.paginate_related_by, orphans=self.paginate_related_orphans)
         page_number = self.request.GET.get('page', 1)
         page = paginator.get_page(page_number)
         kwargs['page_obj'] = page
         kwargs['resumes'] = page.object_list
+        kwargs['responses'] = page.object_list
         kwargs['is_paginated'] = page.has_other_pages()
         return super().get_context_data(**kwargs)
 
