@@ -28,7 +28,6 @@ class SearchForm(forms.Form):
 
 
 class ResumeForm(forms.ModelForm):
-    info_user = forms.CharField(required=True)
     
     class Meta:
         model = Resume

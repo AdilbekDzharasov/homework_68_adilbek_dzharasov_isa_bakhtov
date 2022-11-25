@@ -2,7 +2,7 @@ from django.views.generic import ListView
 from django.db.models import Q
 from django.utils.http import urlencode
 from hh_app.models import Resume
-from hh_app.forms import ResumeForm
+from hh_app.forms import SearchForm
 
 
 class HomeResumeView(ListView):
@@ -24,14 +24,14 @@ class HomeResumeView(ListView):
         return context
 
     def get_queryset(self):
-        queryset = super().get_queryset().exclude(is_public=False)
+        queryset = super().get_queryset().exclude(is_public=True)
         if self.search_value:
-            query = Q(author__icontains=self.search_value) | Q(education__icontains=self.search_value)
+            query = Q(email__icontains=self.search_value) | Q(info_user__icontains=self.search_value)
             queryset = queryset.filter(query)
         return queryset
 
     def get_search_form(self):
-        return ResumeForm(self.request.GET)
+        return SearchForm(self.request.GET)
 
     def get_search_value(self):
         if self.form.is_valid():

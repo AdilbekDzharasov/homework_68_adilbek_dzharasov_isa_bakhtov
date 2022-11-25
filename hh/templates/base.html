@@ -29,6 +29,9 @@
                 {% endif %}
                 </li>
                 <li class="nav-item">
+                    <a href="{% url 'resume_home' %}" class="btn btn my-2 text-white">Список резюме</a>
+                </li>
+                <li class="nav-item">
                    <form action="{% url 'logout' %}" method="post">
                       {% csrf_token %}
                       <input type="submit" class="btn btn my-2 text-white" value="Выход">
