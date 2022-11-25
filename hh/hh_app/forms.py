@@ -1,7 +1,5 @@
 from django import forms
-from hh_app.models import Vacancy, VacancyCategory, Resume
-from hh_app.models import Respond
-from hh_app.models import Education, Experience
+from hh_app.models import Vacancy, VacancyCategory, Resume, Respond, Education, Experience, Message
 from hh_app.widgets import DatePickerInput
 
 
@@ -53,6 +51,14 @@ class RespondForm(forms.ModelForm):
         )
 
 
+class MessageForm(forms.ModelForm):
+    class Meta:
+        model = Message
+        fields = (
+            'message',
+        )
+
+
 class EducationForm(forms.ModelForm):
     begin_date = forms.DateField(required=True, label='Beginning date', widget=DatePickerInput)
     end_date = forms.DateField(required=False, label='Expiration date', widget=DatePickerInput)
@@ -68,6 +74,7 @@ class EducationForm(forms.ModelForm):
             'faculty'
         )
 
+
 class ExperienceForm(forms.ModelForm):
     begin_date = forms.DateField(required=True, label='Beginning date', widget=DatePickerInput)
     end_date = forms.DateField(required=False, label='Expiration date', widget=DatePickerInput)
@@ -80,3 +87,4 @@ class ExperienceForm(forms.ModelForm):
             'begin_date',
             'end_date',
         )
+

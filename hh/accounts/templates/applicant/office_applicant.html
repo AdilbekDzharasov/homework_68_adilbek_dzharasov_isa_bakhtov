@@ -53,6 +53,46 @@
 
     </div>
 
+    <h4 class="mb-4">Отклики на вакансии</h4>
+
+    <div class="container">
+      <div class="table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Резюме</th>
+                <th>Вакансия</th>
+                <th>Чат с работодателем</th>
+              </tr>
+            </thead>
+            <tbody>
+             {% for respond in account.responses.all %}
+                <tr>
+                  <td class="text">{{ respond.resume }}</td>
+                  <td class="text">{{ respond.vacancy }}</td>
+                  <td class="text"><a href="{% url 'respond_home' respond.vacancy.pk %}" class="btn btn-sm btn-outline-secondary"><i class="bi bi-chat" style="font-size: 1.3rem"></i></a></td>
+                </tr>
+              {% empty %}
+             <div class="album py-3 bg-light">
+               <div class="container">
+                   <div class="row">
+                          <div class="col">
+                            <div class="card mb-4 box-shadow">
+                              <div class="card-body">
+                                <h3 class="card-text">У Вас нет откликов</h3>
+                              </div>
+                            </div>
+                          </div>
+                   </div>
+               </div>
+              </div>
+            {% endfor %}
+            </tbody>
+          </table>
+      </div>
+
+    </div>
+
     <h4 class="mb-4">Созданные резюме</h4>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
